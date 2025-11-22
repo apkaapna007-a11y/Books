@@ -1,7 +1,7 @@
 # Nelson Textbook CSV Converter Dependencies
 # Core dependencies for text processing and CSV generation
 
-# No external dependencies required for basic version
+# No external dependencies required for basic CSV conversion
 # The script uses only Python standard library modules:
 # - csv (CSV file handling)
 # - re (regular expressions)
@@ -15,4 +15,10 @@
 # Optional: For enhanced text processing (uncomment if needed)
 # nltk>=3.8        # Natural Language Toolkit for advanced sentence splitting
 # spacy>=3.4       # Advanced NLP processing
+
+# Pinecone Vector Database Upload Dependencies
+pinecone>=5.0.0           # Pinecone vector database client
+sentence-transformers>=2.0.0  # Sentence embeddings (all-MiniLM-L6-v2)
+pandas>=2.0.0             # Data manipulation
+tqdm>=4.65.0              # Progress bars
 
