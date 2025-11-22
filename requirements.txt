@@ -1,0 +1,18 @@
+# Nelson Textbook CSV Converter Dependencies
+# Core dependencies for text processing and CSV generation
+
+# No external dependencies required for basic version
+# The script uses only Python standard library modules:
+# - csv (CSV file handling)
+# - re (regular expressions)
+# - os, glob, pathlib (file system operations)
+# - typing (type hints)
+# - logging (logging functionality)
+
+# Optional: For more accurate token counting (uncomment if needed)
+# tiktoken>=0.5.0  # OpenAI's tokenizer for precise token counting
+
+# Optional: For enhanced text processing (uncomment if needed)
+# nltk>=3.8        # Natural Language Toolkit for advanced sentence splitting
+# spacy>=3.4       # Advanced NLP processing
+
